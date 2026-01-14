@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <set_env name="QT_SCALE_FACTOR" value="1.0" />
+  <node pkg="turtlesim" exec="turtlesim_node" />
+  <node pkg="turtle_control" exec="waypoint" />
+
+</launch>
