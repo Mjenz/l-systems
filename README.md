@@ -25,12 +25,5 @@ Actions:
 
 Implementing the iteration of these rules to build a set of directions for the robot, and then executing these actions was a great learning experience for me in cpp. Looking forward to getting more expereince with ros2 kilted and rclcpp!
 
-Example rule iteration:
-X
-F[-X] + X 
-FF[-X] + X 
-FF[-F[-X] + X] + F[-X] + X  
-FFFF[-FF[-X] + X] + FF[-X] + X 
-
 ## How to use
 Build the project, source the workspace, and run the command `ros2 launch turtle_control waypoint.launch.xml`.
